@@ -173,7 +173,6 @@ ul {
 .aside .logo a {
     color: var(--text-black-900);
     font-weight: 700;
-    /* background: red; */
     padding: 15px 20px;
     font-size: 30px;
     letter-spacing: 5px;
@@ -215,7 +214,7 @@ ul {
     cursor: pointer;
     position: fixed;
     left: 300px;
-    top: 200px;
+    top: 20px;
     border-radius: 5px;
     background: var(--bg-black-100);
     display: none;
@@ -345,8 +344,8 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: -25px;
+    bottom: -30px;
 }
 
 .home-img::before
