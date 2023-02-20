@@ -37,12 +37,7 @@ ul {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    /* position: fixed;
-    left: 270; */
     padding: 0 30px;
-    /* top: 0;
-    right: 0;
-    z-index: 0; */
     opacity: 1;
 }
 
@@ -81,7 +76,6 @@ ul {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 60px;
-    /* background-color: red; */
 }
 
 .section-title h2
