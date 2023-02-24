@@ -2,7 +2,7 @@
 {
     position: fixed;
     right: 0;
-    top: 60px;
+    top: 20px;
     padding: 15px;
     width: 200px;
     border: 1px solid var(--bg-black-50);
@@ -23,7 +23,7 @@
     color: var(--text-black-900);
     right: 100%;
     border: 1px solid var(--bg-black-50);
-    margin-right: 25px;
+    margin-right: 15px;
     cursor: pointer;
     transform: all 0.3s ease;
     border-radius: 50%;
@@ -36,10 +36,35 @@
 
 .style-switcher .style-switcher-toggler
 {
-    top: 0;
+    top: -5px;
 }
 
 .style-switcher .day-night
 {
-    top: 55px;
+    top: 40px;
+}
+
+.style-switcher h4
+{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.style-switcher .colors
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+   
 }
