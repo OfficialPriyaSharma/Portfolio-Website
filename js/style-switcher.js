@@ -41,7 +41,3 @@ window.addEventListener("load", () => {
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
-// {
-//     localStorage.setItem("color",color);
-//     changeColor();
-// }

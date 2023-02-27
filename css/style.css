@@ -820,15 +820,12 @@ h3.my-profession
 {
     flex: 0 0 50%;
     max-width: 50%;
-    /* background: red; */
 }
 
 .contact .contact-form .col-12
 {
     flex: 0 0 100%;
     max-width: 100%;
-
-    /* background: red; */
 }
 
 .contact .contact-form .form-item
@@ -896,10 +893,6 @@ h3.my-profession
     {
         left: 270px;
     }
-    /* .main-content
-    {
-        padding-left: 0;
-    } */
     .about .about-content .personal-info .info-item p span
     {
         display: block;
@@ -916,7 +909,7 @@ h3.my-profession
         flex: 0 0 50%;
         max-width: 50%;   
     }
-    /* .about .about-content .education */
+    
     .home .home-info
     {
         flex: 0 0 100%;
