@@ -671,6 +671,7 @@ h3.my-profession
 .service .service-item .service-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    
 }
 
 .service .service-item .service-item-inner .icon
@@ -692,10 +693,11 @@ h3.my-profession
     transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner:hover .icon
+
+/* .service .service-item .service-item-inner:hover .icon
 {
     background-color: var(--skin-color);
-}
+} */
 
 .service .service-item .service-item-inner:hover .icon .fa
 {
@@ -712,12 +714,12 @@ h3.my-profession
     text-transform: capitalize;
 }
 
-.service .service-item .service-item-inner p
+/* .service .service-item .service-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
-}
+} */
 
 .portfolio .container
 {
