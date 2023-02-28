@@ -16,16 +16,11 @@ const nav = document.querySelector(".nav"),
             a.addEventListener("click", function()
                 {
                     removeBackSection();
-            //         for(let i=0; i<totalSection; i++)
-            // {
-            //     allSection[i].classList.remove("back-section");
-            // }
                     for(let j=0; j<totalNavList; j++)
                     {
                         if(navList[j].querySelector("a").classList.contains("active"))
                         {
                             removeBackSection(j);
-                            // allSection[j].classList.add("back-section");
                         }
                         navList[j].querySelector("a").classList.remove("active");
                     }
@@ -72,7 +67,6 @@ const nav = document.querySelector(".nav"),
         document.querySelector(".hire-me").addEventListener("click", function()
         {   
             const sectionIndex = this.getAttribute("data-section-index");
-            // console.log(sectionIndex);
             showSection(this);
             updateNav(this);
             removeBackSection();
